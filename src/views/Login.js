@@ -10,11 +10,11 @@ export function Login(){
         <form>  
             <div id="okna">  
                 <div>
-                  <label for="username">Login:</label>
-                  <input type="text" name="username">
+                  <label for="username">e-mail:</label>
+                  <input type="email" name="username">
                 </div>
                 <div>
-                    <label for="password">Hasło:</label>
+                    <label for="password">Hasło: </label>
                     <input type="password" name="password">
                 </div>
             </div>
