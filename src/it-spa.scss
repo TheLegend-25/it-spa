@@ -8,13 +8,26 @@ body {
 }
 
 body {
-    background : linear-gradient(45deg, #1CB5E0 0%, #199bbe 100%) no-repeat fixed;
+    // background : linear-gradient(45deg, #1CB5E0 0%, #199bbe 100%) no-repeat fixed;
+    background-image: url("./assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: 'Poppins', 'Arial', sans-serif;
     padding    : 2rem;
+
+    h2,
+    p,
+    tr{
+        color: #f4b700;
+    }
 }
 
 nav {
     background: linear-gradient(45deg, #ffc107 0%, #f4b700 100%);
+    display: flex;
+    justify-content: center;
 
     button,
     .btn {
@@ -61,7 +74,7 @@ main {
         li {
             background-color: #1791b3;
             box-shadow      : #00576e 0 2px 8px 2px;
-            color           : #fff;
+            color           : #ffffff;
             padding         : 1rem;
 
             footer {
@@ -106,6 +119,40 @@ main {
             color     : white;
             margin    : 0;
             padding   : 1rem 0.5rem;
+        }
+    }
+}
+
+
+#login{
+    display: flex;
+    justify-content: center;
+    color: #f4b700;
+    background-color: #3f3e3eda;
+    height: 100%;
+    
+    #loguj{
+        width: 100%;
+        border-color: #f4b700;
+        color: #f4b700;
+    }
+
+    input{
+        border-radius: 15px;
+        border-color: #f4b700;
+        border-style: dotted;
+        margin: 5px;
+        background-color: #00576e;
+        color: #f4b700;
+        opacity: 0.95;
+    }
+    .blok{
+        margin-bottom: 60px;
+        display: grid;
+        
+        #okna{
+            display: grid;
+            justify-content: center;
         }
     }
 }

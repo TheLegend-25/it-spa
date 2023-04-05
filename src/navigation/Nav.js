@@ -3,12 +3,14 @@
 import { NavButton } from '../common/NavButton';
 import { Cart } from '../views/Cart';
 import { Home } from '../views/Home';
+import { Login } from '../views/Login';
 import { RoomList } from '../views/RoomList';
 
 const navItems = [
   { name: 'Home', component: Home },
   { name: 'Rooms', component: RoomList },
-  { name: '🛒', component: Cart }
+  { name: '🛒', component: Cart },
+  { name: 'Login', component: Login}
 ];
 
 export function Nav() {
