@@ -156,3 +156,68 @@ main {
         }
     }
 }
+.srodek{
+    display: flex;
+    justify-content: center;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #3f3e3eda;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    height: 40px;
+    width: 180px;
+    left: 8px;
+    bottom: 5px;
+    background-color: #00576e;
+    -webkit-transition: .4s;
+    transition: .4s;
+    content: "Logowanie";
+    color: #f4b700;
+    text-align: center;
+    line-height: 230%;
+    border-color: #f4b700;
+    border-style: dotted;
+    border-width: 2px;
+    
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    transform: translateX(200px);
+    content: "Rejestracja";
+    
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 30px;
+  }
+  
+  .slider.round:before {
+    border-radius: 30px;
+  }
