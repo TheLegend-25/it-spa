@@ -7,11 +7,20 @@ export function Cart() {
 
   const section = document.createElement('section');
 
+ 
+
   section.innerHTML = `
+    <h6 style="color:#f4b700">Wybierz datę przyjazdu</h6>
+      <input type="date" id="data1">
+    <h6 style="color:#f4b700">Wybierz datę wyjazdu</h6>
+      <input type="date" id="data2">
+    <h4 style="color:#f4b700"> Liczba dni:</h4>
     <h2>Cart</h2>
     <p>Przeglądaj zawartość koszyka:</p>
     <table class="table"></table>
   `;
+
+ 
 
   const tableHead = document.createElement('tr');
 

@@ -1,5 +1,14 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email":"1",
+      "password":"1"
+    },
+    {
+      "email":"2",
+      "password":"2"
+    }
+  ],
   "rooms": [
     {
       "id": 1,
