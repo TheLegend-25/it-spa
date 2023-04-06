@@ -132,9 +132,10 @@ main {
     height: 100%;
     
     #loguj{
-        width: 100%;
+        width: 370px;
         border-color: #f4b700;
         color: #f4b700;
+        
     }
 
     input{
@@ -149,7 +150,7 @@ main {
     .blok{
         margin-bottom: 60px;
         display: grid;
-        
+        text-align: center;
         #okna{
             display: grid;
             justify-content: center;
