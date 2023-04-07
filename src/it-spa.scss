@@ -128,7 +128,7 @@ main {
     display: flex;
     justify-content: center;
     color: #f4b700;
-    background-color: #3f3e3eda;
+    //background-color: #3f3e3eda;
     height: 100%;
     
     #loguj{
@@ -221,4 +221,27 @@ main {
   
   .slider.round:before {
     border-radius: 30px;
+  }
+
+  section{
+    background-color: #3f3e3eda;
+  }
+
+  #daty{
+    display: flex;
+    justify-content: center;
+    div{
+        margin-left: 50px;
+        margin-right: 50px;
+        display: grid;
+        justify-content: center;
+        input{
+            background-color: #00576e;
+            color: #f4b700;
+        }
+    }
+  }
+  #dni{
+    display: flex;
+    justify-content: center;
   }

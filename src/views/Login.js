@@ -83,6 +83,10 @@ export function Login(){
                     <label for="password">Hasło: </label>
                     <input type="password" name="password">
                 </div>
+                <div>
+                    <label for="password">Powtórz Hasło: </label>
+                    <input type="password" name="password">
+                </div>
             </div>
             <div>
                 <input id="loguj" type="submit" value="Loguj">

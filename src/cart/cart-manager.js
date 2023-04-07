@@ -1,4 +1,5 @@
 // cart-manager.js
+import { Cart } from "../views/Cart";
 
 const key = 'it-spa-cart';
 
