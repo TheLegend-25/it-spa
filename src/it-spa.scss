@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap');
+
+
 html,
 body {
     height : 100%;
@@ -14,7 +17,8 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    font-family: 'Poppins', 'Arial', sans-serif;
+   // font-family: 'Poppins', 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding    : 2rem;
 
     h2,
