@@ -10,8 +10,8 @@ export function RoomList() {
   const ul = document.createElement('ul');
   
   section.innerHTML = `
-    <h2>Room List</h2>
-    <p>Sprawdź ofertę pokoi.</p>
+    <h2>Sprawdź ofertę pokoi.</h2>
+   
     <p class="loading">Ładuję listę pokoi...</p>
   `;
 

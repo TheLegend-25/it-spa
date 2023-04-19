@@ -9,10 +9,10 @@ import { Treatments } from '../views/Treatments';
 
 const navItems = [
   { name: 'Home', component: Home },
-  { name: 'Rooms', component: RoomList },
-  { name: 'Treatments', component: Treatments },
+  { name: 'Pokoje', component: RoomList },
+  { name: 'Zabiegi', component: Treatments },
   { name: '🛒', component: Cart },
-  { name: 'Login', component: Login}
+  { name: 'Konto', component: Login}
 ];
 
 export function Nav() {

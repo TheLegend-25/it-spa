@@ -5,6 +5,7 @@ export function NavButton(text, componentFn, classes = []) {
   button.setAttribute('type', 'button');
   button.classList.add(...classes);
   button.innerText = text;
+  button.className = "navbutton"
 
   button.addEventListener('click', () => {
     const navigationEvent = new CustomEvent('navigate', {

@@ -8,8 +8,7 @@ export function Treatments() {
   const ul = document.createElement('ul');
   
   section.innerHTML = `
-    <h2>Treatments List</h2>
-    <p>Sprawdź ofertę zabiegów.</p>
+    <h2>Sprawdź ofertę zabiegów.</h2>
     <p class="loading">Ładuję listę zabiegów...</p>
   `;
 

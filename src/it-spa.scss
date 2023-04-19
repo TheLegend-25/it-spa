@@ -18,6 +18,7 @@ body {
     padding    : 2rem;
 
     h2,
+    h3,
     p,
     tr{
         color: #f4b700;
@@ -225,6 +226,8 @@ main {
 
   section{
     background-color: #3f3e3eda;
+    // display: grid;
+    // justify-content: center;
   }
 
   #daty{
@@ -245,3 +248,28 @@ main {
     display: flex;
     justify-content: center;
   }
+.home{
+    display: grid;
+    justify-content: center;
+}
+#piesel{
+   position: relative;
+   margin-left: 40%;
+}
+#cartcss{
+    margin-left: 7%;
+}
+
+section h2 {
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.navbutton{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #00576e;
+    border-radius: 10px;
+    margin: 5px;
+}

@@ -23,9 +23,11 @@ export function Cart() {
       </div>
     </div>
     <h4 style="color:#f4b700" id="dni"> Liczba nocy:</h4>
-    <h2>Cart</h2>
-    <p>Przeglądaj zawartość koszyka:</p>
+    <div id="cartcss">
+    <h3>Przeglądaj zawartość koszyka:</h3>
+    <p></p>
     <table class="table"></table>
+    <div>
   `;
   const czas1 = section.querySelector("#data1")
   const czas2 = section.querySelector("#data2")
