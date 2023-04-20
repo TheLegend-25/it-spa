@@ -2,7 +2,7 @@
 
 import { cartManager } from '../cart/cart-manager';
 import { NavButton } from '../common/NavButton';
-
+import swal from 'sweetalert';
 
 
 export function Cart() {
@@ -43,22 +43,22 @@ export function Cart() {
     const czas222 = czas22.getTime(czas22)
     const dni = Math.round(Math.abs((czas222 - czas111) / oneDay));
     if (czas111 < czas00){
-      alert("wybierz poprawną datę")
+      swal("wybierz poprawną datę")
       czas1.value = null
       section.querySelector("#dni").innerHTML=`Liczba nocy:`
     }
     else if (czas111 > czas222){
-      alert("data wyjazdu nie może nastąpić przed datą przyjazdu")
+      swal("data wyjazdu nie może nastąpić przed datą przyjazdu")
       czas2.value = null
       section.querySelector("#dni").innerHTML=`Liczba nocy:`
     }
     else if ((czas222 - czas111)/oneDay > 365){
-      alert("maksymalna długość rezerwacji to 365 dni")
+      swal("maksymalna długość rezerwacji to 365 dni")
       czas2.value = null
       section.querySelector("#dni").innerHTML=`Liczba nocy:`
     }
     else if(czas111>czas00+(oneDay*365)){
-      alert("pobyt można rezerwować maksymalnie na rok do przodu")
+      swal("pobyt można rezerwować maksymalnie na rok do przodu")
       czas1.value = null
       section.querySelector("#dni").innerHTML=`Liczba nocy:`
     }
@@ -81,12 +81,12 @@ export function Cart() {
     const dni = Math.round(Math.abs((czas222 - czas111) / oneDay));
     
     if (czas111 > czas222){
-      alert("data wyjazdu nie może nastąpić przed datą przyjazdu")
+      swal("data wyjazdu nie może nastąpić przed datą przyjazdu")
       czas2.value = null
       section.querySelector("#dni").innerHTML=`Liczba nocy:`
     }
     else if ((czas222 - czas111)/oneDay > 365){
-      alert("maksymalna długość rezerwacji to 365 dni")
+      swal("maksymalna długość rezerwacji to 365 dni")
       czas2.value = null
       section.querySelector("#dni").innerHTML=`Liczba nocy:`
     }

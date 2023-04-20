@@ -3,6 +3,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap');
 
 
+.swal-modal{
+    background-color: #00576e;
+    border-color: #f4b700;
+    border-radius: 15px;
+    border-style: dotted;
+    border-width: 3px;
+}
+.swal-text{
+    color: #f4b700;
+    font-size: x-large;
+}
+.swal-button{
+    border: #f4b700;
+    background-color: #007da0;
+    border-color: #f4b700;
+    border-radius: 15px;
+    border-style: dotted;
+    border-width: 2px;
+    color: #f4b700;
+    text-align: center;
+}
+
 html,
 body {
     height : 100%;
@@ -128,7 +150,6 @@ main {
     }
 }
 
-
 #login{
     display: flex;
     justify-content: center;
@@ -136,14 +157,14 @@ main {
     //background-color: #3f3e3eda;
     height: 100%;
     
-    #loguj{
+    .loguj{
         width: 370px;
         border-color: #f4b700;
         color: #f4b700;
         
     }
 
-    input{
+    input, button{
         border-radius: 15px;
         border-color: #f4b700;
         border-style: dotted;
@@ -151,6 +172,7 @@ main {
         background-color: #00576e;
         color: #f4b700;
         opacity: 0.95;
+        
     }
     .blok{
         margin-bottom: 60px;
