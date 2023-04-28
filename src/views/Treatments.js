@@ -21,15 +21,25 @@ export function Treatments() {
           const li = document.createElement('li');
 
           li.innerHTML = `
-            <h4>${treatment.name}</h4>
-            <p>
-            <strong>Czas zabiegu: ${treatment.time}min</strong>
-            </p>
-            <p>
-              <strong>${treatment.price.toFixed(2)} PLN</strong>
-            </p>
-            <footer></footer>
+            <div class="flip-card-inner">
+              <div class="flip-card-back">
+                <p>${treatment.info}</p>
+              </div>
+              <div class="flip-card-front">
+                <h4>${treatment.name}</h4>
+                <p>
+                  <strong>Czas zabiegu: ${treatment.time}min</strong>
+                </p>
+                <p>
+                  <strong>${treatment.price.toFixed(2)} PLN</strong>
+                </p>
+                <footer></footer>
+              </div>
+              
+            </div>
           `;
+
+          li.className="flip-card"
 
           return li;
         });
